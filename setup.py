@@ -10,7 +10,7 @@ with io.open('README.rst', encoding='utf-8') as readme_file:
 
 
 setup(
-    name='pypa-theme',
+    name='pypa-docs-theme',
     version='0.0.1',
     description='The Sphinx theme for PyPA projects',
     long_description=long_description,
