@@ -17,6 +17,7 @@ setup(
     author='PyPA',
     author_email='distutils-sig@python.org',
     url='https://pypa.io',
+    package_dir={"": "src"},
     packages=['pypa_theme'],
     include_package_data=True,
     entry_points={
