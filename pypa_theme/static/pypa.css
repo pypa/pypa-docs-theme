@@ -1,5 +1,18 @@
 @import url("pydoctheme.css");
 
+/* Limit the body width */
+body {
+    max-width: 1000px;
+    margin: 0;
+    padding-left: 1em;
+}
+
+/* Add a border on right of content */
+div.bodywrapper {
+    padding-right: 1em;
+    border-right: 1px solid #cccccc;
+}
+
 /* Undo the margin override in pydoctheme */
 div.sphinxsidebarwrapper > ul > li > ul > li {
     margin-bottom: 0;
