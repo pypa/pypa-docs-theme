@@ -1,16 +1,5 @@
 @import url("pydoctheme.css");
 
-/* Limit the body width */
-body {
-    max-width: 1000px;
-    margin: 0;
-}
-
-/* Pad the document for clarity. */
-div.document {
-    padding: 1em;
-}
-
 /* Add colour distinction between content and background */
 body {
     background-color: #f7f7f7;
@@ -18,18 +7,6 @@ body {
 
 body div.footer, body div.document {
     background-color: white;
-}
-
-/* Remove redundant margins */
-div.footer {
-    margin-right: 0;
-    padding-right: 10px;
-}
-
-div.related {
-    padding: 1em 0;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* Undo the margin override in pydoctheme */
