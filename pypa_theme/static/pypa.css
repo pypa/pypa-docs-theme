@@ -1,14 +1,5 @@
 @import url("pydoctheme.css");
 
-/* Add colour distinction between content and background */
-body {
-    background-color: #f7f7f7;
-}
-
-body div.footer, body div.document {
-    background-color: white;
-}
-
 /* Undo the margin override in pydoctheme */
 div.sphinxsidebarwrapper > ul > li > ul > li {
     margin-bottom: 0;
