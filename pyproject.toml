@@ -5,6 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "pypa-docs-theme"
 version = "0.0.1"
+dependencies = ["sphinx", "python-docs-theme"]
 description = "The Sphinx theme for PyPA projects"
 readme = "README.rst"
 license = {file = "LICENSE"}
