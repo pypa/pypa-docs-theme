@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pypa-docs-theme"
+version = "0.0.1"
+description = "The Sphinx theme for PyPA projects"
+readme = "README.rst"
+license = {file = "LICENSE"}
+authors = [{name = "PyPA"}]
+classifiers = [
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: Python Software Foundation License',
+  'Operating System :: OS Independent',
+  'Topic :: Documentation',
+  'Topic :: Software Development :: Documentation',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3',
+]
+
+[project.urls]
+Homepage = "https://pypa.io"
+Repository = "https://github.com/pypa/pypa-docs-theme"
+
+[project.entry-points."sphinx.html_themes"]
+pypa_theme = "pypa_theme"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pypa_theme"]
